@@ -11,7 +11,7 @@ $(function() {
       {
         breakpoint: 969,
         settings: {
-          arrows: false,
+        arrows: false,
         }
       }
     ]
@@ -41,9 +41,6 @@ $(function() {
 
   $('.product-slider').slick({
     infinite: true,
-    // adaptiveHeight: true,
-    // autoplay: true,
-    // autoplaySpeed: 1000,
     slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="images/arrow-black-left.svg" alt="arrow-black-left"></button>',
@@ -108,12 +105,6 @@ $(function() {
     $('.product-item__wrapper').addClass('product-item__wrapper--list');
   });
 
-  $(".rate-yo").rateYo({
-    ratedFill: "#1C62CD",
-    spacing: "7px",
-    normalFill: '#C4C4C4'
-  });
-
   $('.menu__btn').on('click', function(){
     $('.menu-mobile__list').toggleClass('menu-mobile__list--active')
   });
@@ -126,7 +117,7 @@ $(function() {
 
 
   $('.aside__btn').on('click',function(){
-    $(this).next().slideToggle(); // 'click' автоматом добавляет и убирает display:none
+    $(this).next().slideToggle();
   });
 
 }); 

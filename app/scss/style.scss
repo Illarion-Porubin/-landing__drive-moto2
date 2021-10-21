@@ -275,6 +275,7 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    position: relative;
   }
   
   &__price-old::after{
@@ -283,8 +284,8 @@
     background-image: url("../images/icons-price-old.svg");
     background-repeat: no-repeat;
     background-position: center;
-    right: -10;
-    top: 8px;
+    right: -6px;
+    top: 6px;
     width: 8px;
     height: 10px;
   }
